@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int resultado;
+	for (int n = 1; n <= 20; n++){
+		resultado = n * n;
+		cout << resultado << "\n";
+	}
+	system("pause");
+	return 0;
+}
