@@ -1,0 +1,11 @@
+int num = 1;
+	
+	while(num <= 100){
+		if(num % 2 == 0){
+			cout << "\n";
+			cout << num;
+		}
+		num++;
+	}
+  return 0;
+  }
